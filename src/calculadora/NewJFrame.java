@@ -51,6 +51,8 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        r.setText("0");
+
         rta.setText("=");
         rta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -317,7 +319,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
     private void borrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_borrarActionPerformed
         r.setText("");
-        in="";
+        in="0";
     }//GEN-LAST:event_borrarActionPerformed
 
     private void MultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MultActionPerformed
@@ -371,7 +373,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
     }
-    String in = "";
+    String in = "0";
     Calculo c;
     double n;
     // Variables declaration - do not modify//GEN-BEGIN:variables
